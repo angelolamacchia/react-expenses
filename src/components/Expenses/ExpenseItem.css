@@ -1,0 +1,39 @@
+.expense_item {
+    background-color: slateblue;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.expense_thing {
+    color: white;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expense_price_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.expense_price {
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+.total {
+    text-align: center;
+    font-weight: bolder;
+}
+.total span {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

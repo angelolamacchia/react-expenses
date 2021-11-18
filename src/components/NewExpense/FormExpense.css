@@ -1,0 +1,29 @@
+.form_expense {
+  padding: 20px;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+.input_container {
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input_container button {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.button_add_expense {
+  text-align: center;
+}
+.button_add_expense button {
+  margin: 20px 0;
+  padding: 5px;
+  border-radius: 15px;
+}

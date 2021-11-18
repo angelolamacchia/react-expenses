@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(87, 24, 189);
+}
+
+/* header */
+.big_title {
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+
+/* expenses */
+.expenses {
+  background-color: rgb(60, 39, 182);
+  margin: 0 50px;
+}
