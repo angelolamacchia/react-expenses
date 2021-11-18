@@ -23,6 +23,18 @@ function App() {
       name: "Benzina",
       price: 50.0,
     },
+    {
+      id: Math.random(),
+      date: new Date(Date.UTC(2021, 10, 11)),
+      name: "PC",
+      price: 550.0,
+    },
+    {
+      id: Math.random(),
+      date: new Date(Date.UTC(2021, 9, 23)),
+      name: "Smartphone",
+      price: 430.0,
+    },
   ];
   const [items, setItems] = useState(itemsInit);
 
